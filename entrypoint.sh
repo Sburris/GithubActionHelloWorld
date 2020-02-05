@@ -1,6 +1,6 @@
 #!/bin/sh -l
 
-cd "$GITHUB_WORKSPACE"
+cd /github/home
 
 echo $(ls)
 
