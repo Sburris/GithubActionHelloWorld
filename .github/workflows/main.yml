@@ -9,7 +9,7 @@ jobs:
     steps:
     - name: Hello world action step
       id: hello
-      uses: sburris/GithubActionHelloWorld@v1
+      uses: sburris/GithubActionHelloWorld
       with:
         who-to-greet: 'Sburris'
     # Use the output from the `hello` step
