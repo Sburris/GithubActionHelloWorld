@@ -1,6 +1,6 @@
 #!/bin/sh -l
 
-cd /github/home
+cd "$GITHUB_WORKSPACE"
 
 echo $(pwd)
 
