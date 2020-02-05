@@ -10,7 +10,7 @@ jobs:
     - name: Get source code
       uses: actions/checkout@v1
     
-      - name: Hello world action step
+    - name: Hello world action step
       id: hello
       uses: sburris/GithubActionHelloWorld@master
       with:
